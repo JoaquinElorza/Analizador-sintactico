@@ -110,8 +110,8 @@ class AnalizadorSintactico:
             rangos = {
                 'velocidad': (0, 10),
                 'base': (0, 180),
-                'cuerpo': (0, 100),
-                'garra': (0, 100)
+                'cuerpo': (0, 180),
+                'garra': (0, 180)
             }
             
             min_val, max_val = rangos.get(metodo, (0, 100))
