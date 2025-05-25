@@ -28,8 +28,8 @@ Detecta errores sintácticos y muestra mensajes detallados por línea. También 
 
   * `velocidad`: 0 - 10
   * `base`: 0 - 180
-  * `cuerpo`: 0 - 100
-  * `garra`: 0 - 100
+  * `cuerpo`: 0 - 180
+  * `garra`: 0 - 180
 
 ## 📦 Requisitos
 
