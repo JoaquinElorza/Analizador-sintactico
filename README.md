@@ -51,7 +51,7 @@ python analizador_sintactico.py
 ### Declaración del robot:
 
 ```text
-Robot r1
+Robot r1                #r1 puede ser cualquier identificador que el metodo isidentifier() acepte como valido
 ```
 
 ### Instrucciones válidas:
@@ -61,6 +61,15 @@ r1.velocidad(5)
 r1.base(90)
 r1.cuerpo(50)
 r1.garra(1)
+```
+
+### Instrucciones no válidas:
+
+```text
+R0bot r1                # Error: "Robot" mal escrito (usa un cero)
+r1.cabeza(50)           # Error: método "cabeza" no está permitido
+r1.velocidad(15)        # Error: valor fuera del rango permitido para "velocidad" (máx. 10)
+r1.cuerpo               # Error: instrucción incompleta (faltan paréntesis y valor)
 ```
 
 ## ⚠️ Errores comunes detectados
